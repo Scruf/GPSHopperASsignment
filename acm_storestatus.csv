@@ -1,0 +1,11 @@
+storestatus_id,storestatus_name,storestatus_color,created_time,update_time,storestatus_color_label
+1,Open,"#FF0000 Red","2013-02-08 05:58:17","2013-02-08 05:58:17",Red
+2,Closed,"#C0C0C0 Gray","2013-02-08 05:58:27","2013-02-08 05:58:27",Gray
+3,"Coming Soon","#800000 Maroon","2013-02-08 05:58:39","2013-02-08 05:58:39",Maroon
+4,"Grand Opening","#FF4500 Orange","2013-02-08 05:58:51","2013-02-08 05:58:51",Orange
+5,"Grand Re-Opening!","#4169E1 Blue","2013-02-08 05:59:01","2013-02-08 05:59:01",Blue
+6,"We've Moved!","#228B22 Green","2013-02-08 05:59:15","2013-02-08 05:59:15",Green
+7,"Test Status 7","#EE82EE Violet","2013-02-08 05:59:29","2013-02-08 05:59:29",Violet
+8,"Test Status 8","#FFB6C1 Pink","2013-02-08 05:59:42","2013-02-08 05:59:42",Pink
+9,"Test Status 9","#800080 Purple","2013-02-08 05:59:56","2013-02-08 05:59:56",Purple
+12,"Test Status 10","#FFFFFF White","2013-02-08 06:00:10","2013-02-08 06:00:10",White
