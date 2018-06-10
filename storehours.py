@@ -3,6 +3,7 @@ import sys
 import argparse
 import csv
 from pprint import pprint
+from datetime import datetime
 
 
 parser = argparse.ArgumentParser()
@@ -20,7 +21,9 @@ if __name__ == "__main__":
         with open('acm_storehours.csv') as csvfile:
             hours += [line for line in csv.DictReader(csvfile)]
         
-      
+        store =  list(filter(lambda el: el['dealerlocator_id'] == args.storeid, hours))
+        for st in store:
+            print(dict(st).keys())
         # code goes here
         # using the storeid, display hours
         # if args.isopen is true check if the store is open now.
