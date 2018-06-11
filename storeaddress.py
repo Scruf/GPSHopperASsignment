@@ -1,8 +1,7 @@
 #!/usr/bin/env python
-import sys
+"""Storeaaddress assignment to get the store information by storeid"""
 import argparse
 import csv
-from pprint import pprint
 
 
 parser = argparse.ArgumentParser()
@@ -22,10 +21,7 @@ if __name__ == "__main__":
                             store[0].get('dealer_address2', " ") + " "+\
                             store[0].get('dealer_city', " ")
             store_status = store[0].get('dealer_store_status', " ")
-            print(store_address , store_status) 
-        
-        
-            
+            print(store_address, store_status)
         # code goes here
         # print the store address and fix any broken info
         # address must inclue the full address (1 & 2 (if available)) and the city/state.
